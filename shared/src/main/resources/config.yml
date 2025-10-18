@@ -1,0 +1,28 @@
+time-to-pvp: 300 #Максимальное время пвп
+time-to-take-items: 15 #Время чтобы забрать предметы
+notify-while-pvp: [ 300, 240, 180, 120, 60, 30, 5, 4, 3, 2, 1 ] #Оповещения о том сколько осталось времени для пвп
+notify-while-taking-items: [ 15, 10, 5, 4, 3, 2, 1 ] #Оповещения о том сколько осталось времени чтобы забрать вещи
+
+lobby: #Лобби
+  world: world
+  x: 0
+  y: 128
+  z: 0
+
+messages: #Сообщения плагина, плейсхолдер ${prefix} подставляет префикс.
+  prefix: "&6Кабинка &7|"
+  room-is-full: "${prefix} &cЗдесь и так уже слишком много игроков!"
+  player-joined: "${prefix} &aВы вошли в PvP кабинку!"
+  player-left: "${prefix} &aВы вышли из PvP кабинки!"
+  pvp-started: "${prefix} &4Сражение началось!"
+  pvp-stopped: "${prefix} &4Сражение окончено!"
+  time-remain: "&eДо конца битвы осталось ${time} секунд!"
+  remain-time: "&eКабинка откроется через ${time} секунд!"
+  kicked-out: "${prefix} &cВы слишком долго сражались!"
+  only-players: "Команда только для игроков!"
+  usage: "&c/pvprooms <create/reload>"
+  no-perms: "${prefix} &cКоманда доступна только администрации сервера!"
+  reload-success: "${prefix} &aУспешная перезагрузка!"
+  no-selection: "${prefix} &cСначала выделите территорию с помощью топорика!"
+  create-success: "${prefix} &aНовая кабинка успешно создана и сохранена!"
+  change-in-config: "${prefix} &aНастроить PvP кабинку можно в rooms.yml"

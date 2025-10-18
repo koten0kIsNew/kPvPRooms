@@ -1,0 +1,7 @@
+name: kPvPRooms
+version: 2.0
+api-version: 1.16
+main: ru.kotenokdev.kpvprooms.KPvPRooms
+author: "kotenok_dev"
+commands:
+  pvprooms:
